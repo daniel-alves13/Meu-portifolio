@@ -58,7 +58,7 @@ a:hover{
 }
 <style>
   .modal-content {
-    background-color: white !important; /* força fundo branco */
-    color: black; /* garante legibilidade do texto */
+    background-color: white !important; 
+    color: black; 
   }
 </style>
