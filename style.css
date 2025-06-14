@@ -56,3 +56,8 @@ a, .btn-link:hover {
 a:hover{
     color: var(--cor-destaque);
 }
+<style>
+  .modal-content {
+    background-color: white;
+  }
+</style>
