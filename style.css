@@ -56,9 +56,9 @@ a, .btn-link:hover {
 a:hover{
     color: var(--cor-destaque);
 }
-<style>
-  .modal-content {
-    background-color: white !important; 
-    color: black; 
-  }
-</style>
+
+.modal-content {
+  background-color: white !important;
+  backdrop-filter: none !important;
+  background-image: none !important;
+}
