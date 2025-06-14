@@ -11,7 +11,7 @@
 
   <div class="container text-center mt-5">
     <!-- Imagem do Perfil -->
-    <img src="img/danielcara.png"  alt="Foto de perfil">
+    <img src="..img/danielcara.png" alt="Foto de perfil">
 
     <!-- Nome e título -->
     <h4>Daniel</h4>
@@ -29,12 +29,12 @@
       <p class="badge bg-secondary">BOOTSTRAP</p>
     </div>
 
-    <main class ="container mt 5">
+    <main class="container mt 5">
     <h4 class="text-start mt-5 mb-3">Meus projetos</h4>
     <div class="row">
     <div class="col-md-4">
    <div class="card">
-     <img src="img/escola.jpg" alt="imagem do projeto escola">
+     <img src="img/escola.jpg"  alt="imagem do projeto escola">
    <div class="card-body">
     <h5 class="card-title">Escola</h5>
       <h6 class="card-subtitle mb-2 text-body-secondary">Participação na Escola</h6>
@@ -47,7 +47,7 @@
 
     <div class="col-md-4">
    <div class="card mb-3">
-    <img src="img/trabalho.jpeg" alt="imagem projeto mer. de trabalho">
+    <img src="img/trabalho.jpeg"  alt="imagem projeto mer. de trabalho">
     <div class="card-body">
     <h5 class="card-title">Mercado de trabalho</h5>
       <h6 class="card-subtitle mb-2 text-body-secondary">Conseguindo um emprego</h6>
@@ -60,7 +60,7 @@
 
     <div class="col-md-4">
    <div class="card mb-3">
-   <img src="img/faculdade.jpeg"  alt="imagem do projeto faculdade">
+   <img src="img/faculdade.jpeg" class="card-img-top" alt="imagem do projeto faculdade">
    <div class="card-body">
    <h5 class="card-title">Faculdade</h5>
      <h6 class="card-subtitle mb-2 text-body-secondary">Novos caminhos</h6>
@@ -88,9 +88,23 @@ ambiente virtual onde seja possível compartilhar meus trabalhos fornecendo uma 
          <p>A estrutura do site é baseada em HTML, que define a semântica e o layout
 do conteúdo, enquanto o CSS é usado para estilizar a página visualmente,
 incluindo cores, tipografia e a disposição dos elementos.</p>
-         <p>O CSS personaliza o visual do site, usando variáveis para cores, estilizando o texto com uma fonte importada do Google Fonts e aplicando um esquema de cores suaves e botões interativos. O uso de HTML e CSS é importante pois assim é possível criar um site acessível e esteticamente agradável sem a necessidade de scripts complexos, com foco na usabilidade e na experiência da pessoa usuária. A escolha da tipografia e do esquema de cores contribui para a atmosfera acolhedora do site.              </p>
+         <p>O CSS personaliza o visual do site, usando variáveis para cores, estilizando o texto com uma fonte importada do Google Fonts e aplicando um esquema de cores suaves e botões interativos. O uso de HTML e CSS é importante pois assim é possível criar um site acessível e esteticamente agradável sem a necessidade de scripts complexos, com foco na usabilidade e na experiência da pessoa usuária. A escolha da tipografia e do esquema de cores contribui para a atmosfera acolhedora do site.</p>
          <p>O HTML organiza o conteúdo em um cabeçalho com o título do site, seguido por uma divisão principal (.container) que apresenta o propósito do site e meus projetos dentro da escola em uma seção flexível (projetos). Cada projeto é destacado em seu próprio contêiner , mostrando uma imagem, detalhes do projeto. O design responsivo é garantido pelo uso de uma meta tag viewport e um layout flexível que se adapta a diferentes tamanhos de tela.</p>
-            <img src="img/projeto1.jpg" alt=" imagem do projeto1">
+            
+
+
+  <img
+    src="img/projeto1.jpg"
+    class="img-fluid w-100"
+    alt="Imagem representativa do projeto de uma biblioteca online"
+  />
+</div>
+
+
+
+
+
+
         </div>
             <div class="modal-footer">
                 <a href="">VER CÓDIGO DO PROJETO</a>
@@ -98,11 +112,67 @@ incluindo cores, tipografia e a disposição dos elementos.</p>
         </div>
     </div>
 </div>
+
+<div class="modal" id="modal2" tabindex="-1">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Entendendo o Mercado de Trabalho e como me Adaptar</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <p>Este projeto traz uma reflexão sobre o mercado de trabalho atual, que está em constante transformação devido à tecnologia, à globalização e às novas formas de contratação.</p>
+        <p>Através da página web desenvolvida com HTML e CSS, eu compartilho informações sobre as áreas que mais crescem, as principais exigências das empresas e o que significa ser um profissional competitivo hoje.</p>
+        <p>Também abordo como posso me adaptar a essas mudanças desenvolvendo habilidades importantes como **raciocínio lógico**, **facilidade com números** e, principalmente, **capacidade de adaptação** – algo essencial para enfrentar os desafios de um ambiente profissional em evolução constante.</p>
+        <p>O site apresenta uma estrutura organizada, com seções dedicadas às soft skills (habilidades comportamentais), ao papel da educação contínua e às estratégias para construir um diferencial profissional desde cedo.</p>
+        <p>Esse projeto me ajudou a visualizar o que preciso aprimorar para conquistar meu espaço no mercado e reforçou meu interesse por áreas ligadas à análise, desempenho e evolução constante.</p>
+        <img
+          src="img/trabalho.jpeg"
+          class="img-fluid w-100"
+          alt="Imagem ilustrativa do mercado de trabalho e desenvolvimento profissional"
+        />
+      </div>
+      <div class="modal-footer">
+        <a href="">VER CÓDIGO DO PROJETO</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="modal" id="modal3" tabindex="-1">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Minha Escolha Profissional: Educação Física</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <p>Este projeto apresenta a faculdade que desejo cursar: **Educação Física**. A página reúne informações sobre o curso, as áreas de atuação, a grade curricular e as razões que me motivaram a seguir essa profissão.</p>
+        <p>O objetivo do site é mostrar minha conexão com o esporte, minha paixão por saúde e movimento, e como quero contribuir para o bem-estar das pessoas por meio da atividade física.</p>
+        <p>Utilizei HTML e CSS para estruturar a página com clareza e leveza visual. O layout inclui seções com curiosidades sobre a profissão, possibilidades de carreira (como professor, personal trainer ou preparador físico), e depoimentos de profissionais da área.</p>
+        <p>Esse trabalho foi muito especial, pois me permitiu refletir sobre meu futuro e expressar de forma criativa o quanto essa escolha tem a ver com meus valores e objetivos de vida.</p>
+        <img
+          src="img/faculdade.jpeg"
+          class="img-fluid w-100"
+          alt="Imagem ilustrativa sobre Educação Física"
+        />
+      </div>
+      <div class="modal-footer">
+        <a href="">VER CÓDIGO DO PROJETO</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
   <footer class="container PY-5">
     <h2> Entre em contato</h2>
     <div>
     <p>  <a href="https://daniel-alves13.github.io/Meu-portifolio/">GITHUB</a></p>
-      <p> <a href="00001107021480sp@al.educacao.sp.gov.br">Email de Contato/Enviar</a></p>
+      <p> <a href="mailto:00001107021480sp@al.educacao.sp.gov.br">Email de Contato/Enviar</a></p>
        <p></p>
         <br></br>
      
